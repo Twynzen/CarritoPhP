@@ -3,7 +3,7 @@
 include '../Utils/ConexionDB.php';
 
 class MetodosDAO {
-    public function listarProductos(){
+    public function ListarProductos(){
         $cnx = new ConexionBD();
         $cn= $cnx -> getConexion();
 
