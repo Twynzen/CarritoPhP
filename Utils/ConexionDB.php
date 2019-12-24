@@ -1,6 +1,6 @@
 <?php
 
-class ConexionDB{
+ class ConexionDB{
 
     //El metodo que conecta a la base de datos
     public function getConexion(){

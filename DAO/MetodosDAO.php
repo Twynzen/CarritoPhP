@@ -4,11 +4,11 @@ include '../Utils/ConexionDB.php';
 
 class MetodosDAO {
     public function ListarProductos(){
-        $cnx = new ConexionBD();
+        $cnx = new ConexionDB();
         $cn= $cnx -> getConexion();
 
         $res = $cn-> prepare("select * from productos");
-        $res -> execute():
+        $res -> execute();
 
         foreach ($res as $row){
             $lista[]=$row;
